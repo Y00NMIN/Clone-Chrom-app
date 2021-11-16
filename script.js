@@ -1,8 +1,9 @@
 
-const age = parseInt(prompt("How old are you"));
+const title = document.querySelector(".title h1");
 
-if(isNaN(age)){
-  return ("Please write a number");
-}else{
-  return ("Thx"); 
-}
+title.innerText = "Hello";
+console.log(title);
+
+const allTitle = document.querySelectorAll(".title h1");
+allTitle.innertText = "oh god";
+console.log(allTitle);
