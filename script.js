@@ -1,7 +1,12 @@
-const h1 = document.querySelector("div.title:first-child h1");
+const loginForm = document.querySelector(".login_form");
+const loginInput = document.querySelector(".login_form input");
 
-function handleTitleClick(){
-  h1.classList.toggle("active");
+function onLoginSunbmit(event){
+  event.preventDefault();
+  //브라우저의 submit행동을 막아준다.
+  console.log(event);
+  
 }
 
-h1.addEventListener("click", handleTitleClick);
+loginForm.addEventListener("submit", onLoginSunbmit);
+
