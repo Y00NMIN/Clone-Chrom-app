@@ -13,7 +13,6 @@ function onLoginSunbmit(event){
   const username = loginInput.value;
   localStorage.setItem(USERNAME_KEY, username);
   paintGreetings(username);
-  
 }
 
 function paintGreetings(username){
@@ -29,4 +28,3 @@ if(savedUsername === null){
 } else{
   paintGreetings(savedUsername);
 }
-console.log("savedUsername")
