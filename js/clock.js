@@ -10,5 +10,8 @@ function getClock(){
 }
 
 getClock();
+//1초의 지연시간 없이 즉시 보여주기 위함
 setInterval(getClock, 1000);
+//setInterval 1000ms마다 함수 호출
+//setTimeout 1000ms에 함수호출
 
