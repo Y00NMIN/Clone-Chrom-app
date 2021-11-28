@@ -1,3 +1,71 @@
 .hidden{
   display: none;
 }
+
+body{
+  display: flex;
+  flex-direction: column;
+  margin:30px;
+}
+
+.background{
+  position:absolute;
+  left:0;
+  top:0;
+	height: 100%;
+  width: 100%;
+  z-index:-5;
+  filter: brightness(30%);
+}
+
+#clock{
+  color: whitesmoke;
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+/*-------------------------loginform-------------------------------------*/
+#login_form{
+  text-align: center;
+}
+
+#login_form input{
+  border:0;
+  border-radius: 20px;
+  height: 60px;
+  width: 30%;
+  filter: brightness(80%);
+  opacity: 0.5;
+}
+
+#login_form button{
+  border-radius: 20px;
+  border:0;
+}
+/*-----------------------------todoform-------------------------------*/
+#todo-form{
+  text-align: center;
+  color: whitesmoke;
+}
+
+#todo-list{
+  color: whitesmoke;
+  list-style: none;
+  text-align: center;
+}
+#todo-list:hover{
+  color: yellowgreen;
+}
+/*-------------------------------quote---------------------------------------*/
+#quote{
+  color: whitesmoke;
+  text-align: center;
+}
+
+/*----------------------------------weather----------------------------------*/
+#weather{
+  color: whitesmoke;
+  text-align: right;
+}
