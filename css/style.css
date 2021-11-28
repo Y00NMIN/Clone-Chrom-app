@@ -3,7 +3,7 @@
 }
 
 body{
-  background-color: rgba(187, 180, 180, 0.644);
+  background-color: rgba(77, 76, 76, 0.644);
   display: flex;
   flex-direction: column;
   margin:0px;
@@ -21,20 +21,14 @@ body{
 }
 
 #clock{
-  color: rgb(59, 55, 55);
+  color: whitesmoke;
   font-size: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid black;
-  background-color: rgba(187, 180, 180, 0.644);
-  border-radius: 10px;
-  margin-left: 38%;
-  margin-right: 38%;
-  opacity: 0.8;
   height: 100px;
   margin-bottom: 20px;
-  margin-top: 20px;
+  
 }
 /*-------------------------loginform-------------------------------------*/
 #login_form{
@@ -96,17 +90,21 @@ body{
   width: 40%;
   border:0;
   border-radius: 20px;
-
+  padding-bottom: 10px;
 }
 
 #todo-form:hover{
   opacity: 1;
 }
-
+/*----------------------------------todo-list--------------------------*/
 .todo-list-title{
   color: whitesmoke;
   font-size: 30px;
   text-align: center;
+  border-bottom: 1px solid yellowgreen;
+  margin-left: 38%;
+  margin-right: 38%;
+  padding-bottom: 10px;
 }
 
 .todo-list-title i{
@@ -144,6 +142,10 @@ body{
   position: sticky;
 }
 .quote_icons{
+  border-top: 1px solid yellowgreen;
+  margin-left: 38%;
+  margin-right: 38%;
+  padding-top: 10px;
   text-align: center;
   color: whitesmoke;
   font-size: 20px;
@@ -151,7 +153,8 @@ body{
 
 #quote .quote_word{
   font-size: 25px;
-  margin-left: 20%;
+  margin-left: 23%;
+  margin-right: 15%;
   display: flex;
   justify-content: center;
   align-items: center;

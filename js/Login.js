@@ -16,7 +16,7 @@ function onLoginSunbmit(event){
 }
 
 function paintGreetings(username){
-  greeting.innerText = `안녕 ${username} !`;
+  greeting.innerText = `Hello ${username} !`;
   greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 
