@@ -42,8 +42,8 @@ const quotes = [
   },
 ];
 
-const quote = document.querySelector("#quote div:first-child");
-const author = document.querySelector("#quote div:last-child");
+const quote = document.querySelector(".quote div:first-child");
+const author = document.querySelector(".quote div:last-child");
 
 const toDayQuote= quotes[Math.floor(Math.random() * quotes.length)];
 
