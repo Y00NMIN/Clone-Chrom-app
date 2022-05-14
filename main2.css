@@ -1,6 +1,22 @@
 .main_2{
 	display:flex;
 	flex-direction:column;
-	width:900px;
-	height:100vh;
 }
+
+.shortcuts, 
+.quote,
+.player{
+	width: 680px;
+	height: 210px;
+	margin: 10px 0;
+}
+
+.shortcuts{
+	
+}
+
+.quote{
+	
+}
+
+.player

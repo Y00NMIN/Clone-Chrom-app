@@ -9,44 +9,42 @@
     <script src="https://kit.fontawesome.com/869f10c14c.js" crossorigin="anonymous"></script>
   </head>
   <body>
-		<section calss="main_1">
-			<div class="info">			
-		    <form id="login_form" class="hidden">
-		      <input required maxlength="15" type="text" placeholder="What is your name?"/>
-		      <button><i class="fas fa-sign-in-alt"></i></button>
-		    </form>
-		    <h1 id="greeting" class="hidden"></h1>
-		    <h2 id="clock">00:00:00</h2>
-		    <div id="weather">
-		      <span></span>
-		      <span></span>
+		<section class="Main">
+			<section class="main_1">
+				<div class="info">			
+			    <form id="login_form" class="hidden">
+			      <input required maxlength="15" type="text" placeholder="What is your name?"/>
+			      <button><i class="fas fa-sign-in-alt"></i></button>
+			    </form>
+			    <h1 id="greeting" class="hidden"></h1>
+			    <h2 id="clock">00:00:00</h2>
+			    <div id="weather">
+			      <span></span>
+			      <span></span>
+			    </div>
+				</div>
+				<div class="Todo">	
+			    <form id="todo-form">
+			      <input type="text" placeholder="Write down your To Do List!" required/>
+			    </form>
+			    <div class="todo-list-title"><i class="fas fa-clipboard-check"></i></div>
+			    <ul id="todo-list"></ul>
+				</div>
+			</section>
+	
+			<section class="main_2">
+				<div class="shortcuts">
+					
+				</div>
+				<div class="quote">
+			    <div class="quote_word"></div>
+			    <div class="quote_human_icons"><i class="fas fa-bible"></i></div>
+		      <div class="quote_human"></div>
 		    </div>
-			</div>
-			<div class="Todo">	
-		    <form id="todo-form">
-		      <input type="text" placeholder="Write down your To Do List!" required/>
-		    </form>
-		    <div class="todo-list-title"><i class="fas fa-clipboard-check"></i></div>
-		    <ul id="todo-list"></ul>
-			</div>
-		</section>
-
-		<section class="main_2">
-			<div class="shortcuts">
-				
-			</div>
-			<div class="quote">
-		    <div class="quote_word"></div>
-		    <div class="quote_human_icons"><i class="fas fa-bible"></i></div>
-	      <div class="quote_human"></div>
-	    </div>
-			<div class="player">
-				
-			</div>
-		</section>
-		
-		<section class="Shortcuts">
-			
+				<div class="player">
+					
+				</div>
+			</section>
 		</section>
 		
     <script src="js/Login.js"></script>
