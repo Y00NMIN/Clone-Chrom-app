@@ -15,8 +15,30 @@
 }
 
 .shortcuts{
-	
+	margin: 10px 40px;
+	display:flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	list-style:none;
 }
+
+.shortcuts li{
+	margin: 0 5px;
+	display:block;
+	height: 80px;
+	width: 80px;
+	background-color: rgba(66, 66, 66, 0.9);
+	box-shadow: 0px 5px 5px rgba(245, 245, 245, 1);
+}
+
+
+
+.shortcuts ::after{
+	content="";
+	padding-left: 10px;
+}
+
 /* quote */
 .quote{
 	display:flex;
