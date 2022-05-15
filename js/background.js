@@ -1,7 +1,8 @@
 // const imges=[
-//   "earth.jpg",
+//   // "earth.jpg",
 //   "moun.jpg",
-//   "wave.jpg"
+//   "wave.jpg",
+// 	"sea.jpeg"
 // ];
 
 // const BG = "background";

@@ -1,12 +1,15 @@
 .main_2{
 	display:flex;
+	width: 100%;
 	flex-direction:column;
+	background-color:#fff;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
 
 .shortcuts, 
 .quote,
 .player{
-	width: 680px;
 	height: 210px;
 	margin: 10px 0;
 }
@@ -14,9 +17,32 @@
 .shortcuts{
 	
 }
-
+/* quote */
 .quote{
-	
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
+
+.quote .quote_word{
+  font-size: 18px;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #424242;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.quote .quote_human{
+	text-align:center;
+	width: 80%;
+	padding-top: 8px;
+  font-size: 30px;
+  font-weight: bold;
+	border-top: 1px solid #424242;
+  color: #424242;
+}
+
 
 .player
