@@ -7,6 +7,11 @@
 	border-bottom-right-radius: 10px;
 }
 
+a{
+	text-decoration: none;
+	color: #424242;
+}
+
 .shortcuts, 
 .quote,
 .player{
@@ -30,13 +35,18 @@
 	width: 80px;
 	background-color: rgba(66, 66, 66, 0.9);
 	box-shadow: 0px 5px 5px rgba(245, 245, 245, 1);
+	text-align: center;
 }
-
-
 
 .shortcuts ::after{
 	content="";
 	padding-left: 10px;
+}
+
+.shortcuts img{
+	height: 80px;
+	width: 80px;
+	border:50%;
 }
 
 /* quote */
@@ -45,6 +55,7 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	
 }
 
 .quote .quote_word{
