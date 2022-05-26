@@ -15,8 +15,8 @@ a{
 .shortcuts, 
 .quote,
 .player{
-	height: 210px;
-	margin: 10px 0;
+	height: 240px;
+	margin: 15px 0;
 }
 
 .shortcuts{
@@ -87,18 +87,16 @@ canvas {
     height: 200px;
     display: block;
     position: absolute;
-		border: 3px solid #424242;
+		border: 2px solid #424242;
 		border-radius: 20px;
-    left: 50%;
-    top: 50%;
+    left: 48%;
+    top: 60%;
 }
 
 .player .playarea {
     position: absolute;
     top: 50%;
     left: 50%;
-    height: 126px;
-    width: 320px;
     margin-top: -63px;
     margin-left: -160px;
 }
@@ -162,8 +160,8 @@ canvas {
 .player .song {
     color: #424242;
     position: absolute;
-    top: 225px;
-    left: 0;
+    top: 10px;
+    left: -10px;
     width: 100%;
     text-align: center;
 }
