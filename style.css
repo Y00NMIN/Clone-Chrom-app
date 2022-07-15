@@ -82,7 +82,7 @@ body{
   border:0;
   border-radius: 20px;
   height: 60px;
-  width: 15%;
+  width: 70%;
   filter: brightness(80%);
   opacity: 0.5;
 }
@@ -94,7 +94,7 @@ body{
 #login_form button{
   filter: brightness(80%);
   height: 60px;
-  width: 3%;
+  width: 20%;
   border-radius: 20px;
   border:0;
 }
