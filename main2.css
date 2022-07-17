@@ -91,6 +91,7 @@ canvas {
 		border-radius: 20px;
     left: 55%;
     top: 60%;
+	box-shadow: 0px 5px 5px rgba(66, 66, 66, 1);
 }
 
 .player .playarea {
@@ -187,9 +188,10 @@ canvas {
 /* logo */
 .logo img{
 	display:block;
-	height:190px;
-	width:190px;
+	height:200px;
+	width:200px;
 	border: 2px solid #424242;
-	border-radius: 50%;
-	transform: translate(43px, -32px);
+	border-radius: 10px;
+	transform: translate(43px, -60px);
+	box-shadow: 0px 5px 5px rgba(66, 66, 66, 1);
 }
